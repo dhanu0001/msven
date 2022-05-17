@@ -34,6 +34,3 @@ workflows:
     # Inside the workflow, you define the jobs you want to run.
     jobs:
       - build-and-test
-      - run:
-          name: Install JFrog CLI
-          command: curl -fL https://getcli.jfrog.io | sh
